@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         // implement algorithm here
-        UserService userService = new UserServiceImpl();
+        UserServiceImpl  userService = new UserServiceImpl();
 
         // Adding a User to the table.
         userService.createUsersTable();
