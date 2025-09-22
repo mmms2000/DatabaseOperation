@@ -6,7 +6,11 @@ import jm.task.core.jdbc.service.UserServiceImpl;
 import java.util.Collections;
 import java.util.List;
 
+import static com.mysql.cj.conf.PropertyKey.logger;
+
 public class Main {
+
+
     public static void main(String[] args) {
 
         // implement algorithm here
@@ -34,4 +38,6 @@ public class Main {
         userService.dropUsersTable();
 
     }
+
+
 }
